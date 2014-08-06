@@ -1,0 +1,104 @@
+<form class="form-horizontal">
+    <fieldset>
+        <!-- Form Name -->
+        <h3 class="m-10"><i class="fa fa-sitemap"></i> Distributor / Agent</h3>
+        <hr>
+        <!-- Text input-->
+        <div class="form-group">
+            <label class=" col-lg-4 col-md-4 col-sm-4 control-label">First Name</label>
+
+            <div class="col-md-5">
+                <input type="text" placeholder="" ng-model="viewModel.first_name" class="form-control input-md">
+
+            </div>
+        </div>
+        <hr>
+
+        <!-- Text input-->
+        <div class="form-group">
+            <label class="col-md-4 control-label">Last Name</label>
+
+            <div class="col-md-5">
+                <input type="text" placeholder="" ng-model="viewModel.last_name" class="form-control input-md">
+
+            </div>
+        </div>
+
+        <hr>
+
+        <!-- Text input-->
+        <div class="form-group">
+            <label class="col-md-4 control-label">Email</label>
+
+            <div class="col-md-5">
+                <input type="text" placeholder="" ng-model="viewModel.email" class="form-control input-md">
+
+            </div>
+        </div>
+        <hr>
+        <!-- Text input-->
+        <div class="form-group">
+            <label class="col-md-4 control-label">Name of Business</label>
+
+            <div class="col-md-5">
+                <input type="text" placeholder="" ng-model="viewModel.business_name" class="form-control input-md">
+
+            </div>
+        </div>
+        <hr>
+        <!-- Text input-->
+        <div class="form-group">
+            <label class="col-md-4 control-label">Nature of Business</label>
+
+            <div class="col-md-5">
+                <input type="text" placeholder="" ng-model="viewModel.business_nature" class="form-control input-md">
+
+            </div>
+        </div>
+        <hr>
+        <!-- Select Basic -->
+        <div class="form-group">
+            <label class="col-md-4 control-label">Province</label>
+
+            <div class="col-md-5">
+                <select class="form-control" ng-model="viewModel.province">
+                    <option value="eastern_cape">Eastern Cape</option>
+                    <option value="free_state">Free State</option>
+                    <option value="gauteng">Gauteng</option>
+                    <option value="kwazulu_natal">KwaZulu-Natal</option>
+                    <option value="limpopo">Limpopo</option>
+                    <option value="mpumalanga">Mpumalanga</option>
+                    <option value="northern_cape">Northern Cape</option>
+                    <option value="north_west">North West</option>
+                    <option value="western_cape">Western Cape</option>
+                </select>
+            </div>
+        </div>
+        <hr>
+        <!-- Select Basic -->
+        <div class="form-group">
+            <label class="col-md-4 control-label">Type of Business</label>
+
+            <div class="col-md-5">
+                <select class="form-control" ng-model="viewModel.business_type">
+                    <option value="sole_proprietor">Sole Proprietor</option>
+                    <option value="partnership">Partnership</option>
+                    <option value="trust">Trust</option>
+                    <option value="cc">CC</option>
+                    <option value="pty">(Pty) Ltd</option>
+                    <option value="ltd">Ltd</option>
+                </select>
+            </div>
+        </div>
+        <hr>
+        <!-- Button -->
+        <div class="form-group">
+            <label class="col-md-4 control-label" for="singlebutton"> </label>
+            <div class="col-md-4">
+                <button id="singlebutton" name="singlebutton" class="btn btn-success" ng-click="postForm()">Submit</button>
+            </div>
+        </div>
+
+    </fieldset>
+</form>
+

@@ -2132,8 +2132,8 @@ fieldset[disabled] .btn-primary.active {
 }
 .btn-success {
     color: #ffffff;
-    background-color: #00004c;
-    border-color: #00004c;
+    background-color: #5cb85c;
+    border-color: #4cae4c;
     width: 150px;
 
 }
@@ -2143,8 +2143,9 @@ fieldset[disabled] .btn-primary.active {
 .btn-success.active,
 .open .dropdown-toggle.btn-success {
     color: #ffffff;
-    background-color: dimgrey;
-
+    background-color: #47a447;
+    border-color: #398439;
+    ;
 
 }
 .btn-success:active,
@@ -3494,7 +3495,7 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
 .nav .open > a:hover,
 .nav .open > a:focus {
     background-color: #73bf45;
-    border-color: #3d3d40;
+    border-color: #428bca;
 }
 .nav .nav-divider {
     height: 1px;
@@ -3959,7 +3960,7 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
     }
 }
 .navbar-default {
-    background-color: #ffffff;
+    background-color: #595959;
     border-color: #ffffff;
 }
 .navbar-default .navbar-brand {
@@ -3974,18 +3975,18 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
     color: #403c3c;
 }
 .navbar-default .navbar-nav > li > a {
-    color: #00004c;
+    color: #ffffff;
 }
 .navbar-default .navbar-nav > li > a:hover,
 .navbar-default .navbar-nav > li > a:focus {
     color: #ffffff;
-    background-color: #00004c;
+    background-color: #73bf45;
 }
 .navbar-default .navbar-nav > .active > a,
 .navbar-default .navbar-nav > .active > a:hover,
 .navbar-default .navbar-nav > .active > a:focus {
-    color: #d6d0c3;
-    background-color: #d6d0c3;
+    color: #555555;
+    background-color: #595959;
 }
 .navbar-default .navbar-nav > .disabled > a,
 .navbar-default .navbar-nav > .disabled > a:hover,
@@ -4010,7 +4011,7 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
 .navbar-default .navbar-nav > .open > a,
 .navbar-default .navbar-nav > .open > a:hover,
 .navbar-default .navbar-nav > .open > a:focus {
-    background-color: #d6d0c3;
+    background-color: #2f2c2c;
     color: #555555;
 }
 @media (max-width: 767px) {
@@ -4381,6 +4382,7 @@ a.list-group-item.active > .badge,
 .nav-pills > .active > a > .badge {
     color: #428bca;
     background-color: #ffffff;
+    border: transparent;
 }
 .nav-pills > li > a > .badge {
     margin-left: 3px;
@@ -4638,7 +4640,7 @@ a.thumbnail.active {
     padding: 10px 15px;
     margin-bottom: -1px;
     background-color: #ffffff;
-    border: 1px solid #dddddd;
+    border: 0px solid #dddddd;
 }
 .list-group-item:first-child {
     border-top-right-radius: 4px;

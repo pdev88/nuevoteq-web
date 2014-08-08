@@ -13,8 +13,8 @@ body {
     bottom: 0px;
     width: 100%;
     /* Set the fixed height of the footer here */
-    height: 305px;
-    background-color: #00004c;
+    height: 360px;
+    background-color: #333333;
     clear: both;
 
 }

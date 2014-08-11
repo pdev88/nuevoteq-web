@@ -16,7 +16,7 @@ body {
 }
 
 .navbar-text {
-  color: #808080;
+  color: #ffffff;
 }
 
 h2 {
@@ -25,7 +25,7 @@ h2 {
 }
 
 h3 {
-  color: #00004c;
+  color: #73bf45;
   text-emphasis-style: sesame;
 }
 
@@ -51,8 +51,8 @@ h4 {
 
 .nav-sidebar .active a {
   cursor: default;
-  background-color: #808080;
-  color: #808080;
+  background-color: #73bf45;
+  color: #73bf45;
 }
 
 .nav-sidebar .active a:hover {
@@ -127,11 +127,11 @@ h4 {
 }
 
 .nav > li > a {
-  color: #00004c;
+  color: #ffffff;
 }
 
 .nav > li > a:hover {
-  color: #808080;
+  color: #73bf45;
 }
 
 .nav > li > a:hover {
@@ -143,8 +143,8 @@ h4 {
 }
 
 .custom-footer {
-  background: #00004c;
-  color: #00004c;
+  background: #333;
+  color: #f6f6f6;
 }
 
 .nav-title {
@@ -179,7 +179,7 @@ h4 {
   border: 8px solid white;
   line-height: 88px;
   border-radius: 50%;
-  background: #00004c;
+  background: #8ac942;
   vertical-align: middle;
 }
 
@@ -242,7 +242,7 @@ h4 {
 .box > .icon:hover > .info > .more > a {
   color: #fff;
   padding: 6px 8px;
-  background-color: dimgrey;
+  background-color: #8ac942;
 }
 
 .box .space {
@@ -259,13 +259,11 @@ h4 {
 }
 
 .nav {
-  background-color: #ffffff;
+  background-color: #3d3d40;
 }
 
 .navbar-default {
-  background-color: #ffffff;
-  border-bottom-color: #cccccc;
-  color: #00004c;
+  background-color: #3d3d40;
 }
 
 .btn-circle {
@@ -451,7 +449,7 @@ ul.social-network li {
 
 #sub-footer {
   text-shadow: none;
-  color: #00004c;
+  color: #f5f5f5;
   padding: 0;
   padding-top: 10px;
   margin: 10px 0 0 0;
@@ -654,5 +652,9 @@ ul.time-post li.time {
 .fa-square {
   font-size: 10px;
   padding: 5px;
-  color: #00004c;
+}
+
+.fa-facebook-square {
+  font-size: 10px;
+  padding: px;
 }
